@@ -4,6 +4,7 @@ import { Destinantions } from "./components/Destinantions";
 import { Search } from "./components/Search";
 import { Selects } from "./components/Selects";
 import { Carousel } from "./components/Carousel";
+import { Footer } from "./components/Footer";
 
 export const App = () => {
   return (
@@ -14,6 +15,7 @@ export const App = () => {
       <Search />
       <Selects />
       <Carousel />
+      <Footer />
     </div>
   );
 };
